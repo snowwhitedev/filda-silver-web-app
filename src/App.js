@@ -1,7 +1,7 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './pages/Home/Home';
-import Staking from './Staking'
+import Staking from './pages/Staking/Staking'
 import Dashboard from './Dashboard'
 import Vote from './Vote'
 import Header from './components/Header'
