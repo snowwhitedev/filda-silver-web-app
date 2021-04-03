@@ -1,0 +1,95 @@
+@import '../variables.scss';
+
+.footer {
+    color: white;
+    padding: 1.5rem 3.5rem;
+    background-color: $ExtraDarkBg;
+
+    .footerMenu {
+        font-size: 0.75rem;
+        font-weight: 200;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .links {
+            a {
+                margin-left: 10px;
+                color: $Grey;
+            }
+        }
+    }
+
+    .community {
+        font-size: 1.5rem;
+        font-weight: 200;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .links {
+            a {
+                margin-left: 20px;
+                color: $Grey;
+                &:hover {
+                    color: $Green;
+                }
+            }
+        }
+    }
+
+    .poweredBy {
+        font-size: 0.75rem;
+        color: $Grey;
+        font-weight: 300;
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .poweredByText {
+            margin-right: 10px;
+            margin-left: 10px;
+            color: $Grey;
+        }
+
+        .heart {
+            color: $Red
+        }
+    }
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) {
+    .footerMenu {
+        justify-content: flex-start;
+    }
+    .poweredBy {
+        justify-content: flex-end;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .footerMenu {
+        justify-content: flex-start;
+    }
+    .poweredBy {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .community {
+        margin-top: 20px;
+    }
+   .footerMenu {
+       justify-content: center;
+   }
+   .poweredBy {
+       justify-content: center;
+       margin-top: 20px;
+   }
+ }
