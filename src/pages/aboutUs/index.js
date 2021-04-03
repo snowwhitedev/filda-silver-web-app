@@ -314,26 +314,26 @@ const AboutUs = () => {
           </div>
           {/* wallet */}
           {/* <div className={styles.wallet}>
-            <img src={require('../../images/aboutUs/wallet.png')} />
+            <img src={require('../../assets/images/aboutUs/wallet.png')} />
             <h3 className={styles.subTitle}>Wallet</h3>
             <div className={styles.wallet_list}>
               <div className={classNames(styles.wallet_item, styles.wallet_huobi)}>
-                <img src={require('../../images/aboutUs/wallet_huobi.png')}/>
+                <img src={require('../../assets/images/aboutUs/wallet_huobi.png')}/>
               </div>
               <div className={classNames(styles.wallet_item, styles.wallet_bitkeep)}>
-                <img src={require('../../images/aboutUs/wallet_bitkeep.png')}/>
+                <img src={require('../../assets/images/aboutUs/wallet_bitkeep.png')}/>
               </div>
               <div className={classNames(styles.wallet_item, styles.wallet_token)}>
-                <img src={require('../../images/aboutUs/wallet_token.png')}/>
+                <img src={require('../../assets/images/aboutUs/wallet_token.png')}/>
               </div>
               <div className={classNames(styles.wallet_item, styles.wallet_codebank)}>
-                <img src={require('../../images/aboutUs/wallet_codebank.png')}/>
+                <img src={require('../../assets/images/aboutUs/wallet_codebank.png')}/>
               </div>
               <div className={classNames(styles.wallet_item, styles.wallet_bingoo)}>
-                <img src={require('../../images/aboutUs/wallet_bingoo.png')}/>
+                <img src={require('../../assets/images/aboutUs/wallet_bingoo.png')}/>
               </div>
               <div className={classNames(styles.wallet_item, styles.wallet_hyperPay)}>
-                <img src={require('../../images/aboutUs/wallet_hyperpay.png')}/>
+                <img src={require('../../assets/images/aboutUs/wallet_hyperpay.png')}/>
               </div>
             </div>
           </div> */}
@@ -351,7 +351,7 @@ const AboutUs = () => {
           <div className={styles.content}>
             <h2 className={styles.mainTitle}>Platform Security</h2>
             <div className={styles.info_wrapper}>
-              <img src={require('../../images/aboutUs/security.png')}/>
+              <img src={require('../../assets/images/aboutUs/security.png')}/>
               <div className={styles.info}>
                 <p>FilDA aims to be the most secure platform in the DeFi space. Keeping your funds safe and secure is paramount to us.</p>
                 <p>FilDA security processes and features include:</p>
@@ -383,7 +383,7 @@ const AboutUs = () => {
           <h2 className={styles.mainTitle}>Supported Assets</h2>
           <h3 className={styles.subTitle}>FilDA currently supports the following assets</h3>
           <div className={styles.info_wrapper}>
-            <img src={require('../../images/aboutUs/logo_group.png')}/>
+            <img src={require('../../assets/images/aboutUs/logo_group.png')}/>
             <div className={styles.info}>
               <p>Each asset can be deposited and interest earned in the asset itself, and in FilDA tokens, with low risk. The asset interest accumulates to your balance automatically. The FilDA interest can be redeemed by the user at any time. All deposits can be withdrawn instantly.</p>
               <p>Your assets can also be used as collateral for loans.</p>
@@ -404,7 +404,7 @@ const AboutUs = () => {
           <h2 className={styles.mainTitle}>Lending & Borrowing</h2>
           <h3 className={styles.subTitle}>Borrowing against the following is available on FilDA</h3>
           <div className={styles.info_wrapper}>
-            <img src={require('../../images/aboutUs/logo_group.png')}/>
+            <img src={require('../../assets/images/aboutUs/logo_group.png')}/>
             <div className={styles.info}>
               <p>These loans allow you to instantly obtain and use an asset without having to wait for an exchange purchase. All loans require over-collateralisation. Loans have no time limit and can be used for staking or withdrawn to your personal wallet.</p>
             </div>
@@ -427,7 +427,7 @@ const AboutUs = () => {
               <p>Assets added to the liquidity pools earn interest in FilDA that can be instantly redeemed. These FilDA rewards can be compounded back into the pools (by swapping for further LP tokens), staked to the DAO governance pool, or swapped for other assets. Rewards are earned every block.</p>
               <p>Through a dual mining mechanism, any tokens swapped on MDEX for supplying the liquidity pools, also earn MDX tokens; </p>
             </div>
-            <img src={require('../../images/aboutUs/staking.png')}/>
+            <img src={require('../../assets/images/aboutUs/staking.png')}/>
           </div>
         </div>
         </div>
@@ -443,7 +443,7 @@ const AboutUs = () => {
           <h2 className={styles.mainTitle}>DAO Governance</h2>
           <div className={styles.info_wrapper}>
             <div className={classNames(styles.info_item_wrapper, styles.info_item1_wrapper)}>
-              <img src={require('../../images/aboutUs/dao_1.png')}/>
+              <img src={require('../../assets/images/aboutUs/dao_1.png')}/>
               <div className={styles.info}>
                 <p>FilDA DAO is a revision based on the DAO governance model of AAVE, Curve and other DeFi pioneers on Ethereum mainchain.</p>
                 <p>As a decentralized lending and borrowing platform, users who deposit assets desire higher interest rates, and users who borrow assets desire lower interest rates. A market mechanism that finds an optimal solution is required, which is the core purpose of FilDA DAO governance.</p>
@@ -462,7 +462,7 @@ const AboutUs = () => {
                   <p>The FilDA Genesis Team has always adhered to the principle of transparency and releases all the information about the protocol. </p>
                 </div>
               </div>
-              <img src={require('../../images/aboutUs/dao_2.png')}/>
+              <img src={require('../../assets/images/aboutUs/dao_2.png')}/>
             </div>
           </div>
         </div>
@@ -479,7 +479,7 @@ const AboutUs = () => {
           <h2 className={styles.mainTitle}>Future Possibilities</h2>
           <div className={styles.info_wrapper}>
             <div className={classNames(styles.info_item_wrapper, styles.info_item1_wrapper)}>
-              <img src={require('../../images/aboutUs/future_1.png')}/>
+              <img src={require('../../assets/images/aboutUs/future_1.png')}/>
               <div>
                 <div className={styles.info}>
                   <h3>Products</h3>
@@ -503,7 +503,7 @@ const AboutUs = () => {
                   <p>There are currently two options for voting on the proposal: Yes and No. Stakers in the DAO pool can vote for the proposal. The number of tokens in the DAO pool is used as the number of votes (withdrawals are not counted).</p>
                 </div>
               </div>
-              <img src={require('../../images/aboutUs/future_2.png')}/>
+              <img src={require('../../assets/images/aboutUs/future_2.png')}/>
             </div>
           </div>
         </div>
@@ -548,7 +548,7 @@ const AboutUs = () => {
       <section className={classNames(styles.sec, styles.faq)}>
         <div className={styles.inner}>
         <div className={styles.content}>
-          <img src={require('../../images/aboutUs/faq.png')}/>
+          <img src={require('../../assets/images/aboutUs/faq.png')}/>
           <h2 className={styles.mainTitle}>FAQ</h2>
           <div className={styles.faq_list_wrapper}>
             <ul className={styles.faq_list}>
@@ -570,22 +570,22 @@ const AboutUs = () => {
           <h2 className={styles.mainTitle}>Partner Integrations</h2>
           <div className={styles.partner_list}>
             <div className={classNames(styles.partner_item, styles.wallet_huobi)}>
-              <img src={require('../../images/aboutUs/wallet_huobi.png')}/>
+              <img src={require('../../assets/images/aboutUs/wallet_huobi.png')}/>
             </div>
             <div className={classNames(styles.partner_item, styles.wallet_bitkeep)}>
-              <img src={require('../../images/aboutUs/wallet_bitkeep.png')}/>
+              <img src={require('../../assets/images/aboutUs/wallet_bitkeep.png')}/>
             </div>
             <div className={classNames(styles.partner_item, styles.wallet_token)}>
-              <img src={require('../../images/aboutUs/wallet_token.png')}/>
+              <img src={require('../../assets/images/aboutUs/wallet_token.png')}/>
             </div>
             <div className={classNames(styles.partner_item, styles.wallet_codebank)}>
-              <img src={require('../../images/aboutUs/wallet_codebank.png')}/>
+              <img src={require('../../assets/images/aboutUs/wallet_codebank.png')}/>
             </div>
             <div className={classNames(styles.partner_item, styles.wallet_bingoo)}>
-              <img src={require('../../images/aboutUs/wallet_bingoo.png')}/>
+              <img src={require('../../assets/images/aboutUs/wallet_bingoo.png')}/>
             </div>
             <div className={classNames(styles.partner_item, styles.wallet_hyperPay)}>
-              <img src={require('../../images/aboutUs/wallet_hyperpay.png')}/>
+              <img src={require('../../assets/images/aboutUs/wallet_hyperpay.png')}/>
             </div>
           </div>
         </div>

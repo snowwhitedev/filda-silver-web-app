@@ -47,8 +47,8 @@
 
 .whatIsFilDA {
   .inner {
-    background: url('../../images/aboutUs/cure.svg') no-repeat top right,
-                url('../../images/aboutUs/small_cure.svg') no-repeat bottom left;
+    background: url('../../assets/images/aboutUs/cure.svg') no-repeat top right,
+                url('../../assets/images/aboutUs/small_cure.svg') no-repeat bottom left;
   }
   .mainTitle {
     padding-bottom:50px
@@ -516,7 +516,7 @@
       display: inline-block;
       padding: 10px 50px 10px 30px;
       border: 2px solid $aboutus_Grey;
-      background: #282a2d url('../../images/aboutUs/right_arrow.png') no-repeat 85% center;
+      background: #282a2d url('../../assets/images/aboutUs/right_arrow.png') no-repeat 85% center;
       color: $aboutus_Grey;
       font-size: 18px;
       border-radius: 30px;

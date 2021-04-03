@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import Web3 from 'web3'
 import './AppVote.scss'
-import LogoImg from './images/vote_logo.svg'
-import Logo2Img from './images/vote_logo2.svg'
-import ConnectBtnImg from './images/connect_btn.svg'
+import LogoImg from './assets/images/vote_logo.svg'
+import Logo2Img from './assets/images/vote_logo2.svg'
+import ConnectBtnImg from './assets/images/connect_btn.svg'
 import proposalABI from './utils/proposalABI.json'
 import log from './utils/logger'
 

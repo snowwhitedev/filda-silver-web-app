@@ -1,22 +1,22 @@
 import React, { useContext, useEffect, useState } from 'react'
 import {Container, Row, Col, Button, Modal} from 'react-bootstrap'
 import styles from '../../Staking.module.scss'
-import StakingData from './methods/StakingData'
-import staking from './images/staking.svg'
+import StakingData from '../../methods/StakingData'
+import staking from '../../assets/images/staking.svg'
 import moment from 'moment'
 import 'moment/locale/zh-cn'
 import { FaExternalLinkAlt, FaBolt } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
-import CoreData from "./methods/CoreData"
+import CoreData from "../../methods/CoreData"
 import StakeModal from '../../components/subComponents/staking/StakeModal'
 import UnstakeModal from '../../components/subComponents/staking/UnstakeModal'
 import WithdrawModal from '../../components/subComponents/staking/WithdrawModal'
 import RedeemModal from '../../components/subComponents/staking/RedeemModal'
 import ContentLoader from 'react-content-loader'
-import LoadingIcon from './images/savingsloading.svg'
-import log from './utils/logger'
+import LoadingIcon from '../../assets/images/savingsloading.svg'
+import log from '../../utils/logger'
 import { LanguageContext, NetworkTypeContext, WalletAddressContext, Web3Context } from '../../context'
-import { promiseWithTimeout } from './utils/promise'
+import { promiseWithTimeout } from '../../utils/promise'
 
 function Staking() {
     const { t } = useTranslation()

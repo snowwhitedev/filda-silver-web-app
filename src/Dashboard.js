@@ -1,12 +1,9 @@
 import React, {useContext, useEffect, useState} from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Dashboard.module.scss";
-import moment from "moment";
 import { useTranslation } from "react-i18next";
 import Config from "./utils/config";
-import CoreData from "./methods/CoreData";
 import ContentLoader from "react-content-loader";
-import LoadingIcon from "./images/savingsloading.svg";
 import { NetworkTypeContext, WalletAddressContext, Web3Context } from './context'
 
 function Dashboard(props) {

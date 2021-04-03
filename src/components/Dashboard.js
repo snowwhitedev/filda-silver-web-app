@@ -6,7 +6,7 @@ import ContentLoader from 'react-content-loader'
 import FetchData from '../methods/FetchData'
 import Config from '../utils/config'
 import ClaimModal from '../components/subComponents/ClaimModal'
-import logo from '../images/logo.svg'
+import logo from '../assets/images/logo.svg'
 import { NetworkTypeContext, WalletAddressContext } from '../context'
 
 function fixedNaN(number) {
