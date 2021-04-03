@@ -1,6 +1,6 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Home from './Home'
+import Home from './pages/Home/Home';
 import Staking from './Staking'
 import Dashboard from './Dashboard'
 import Vote from './Vote'

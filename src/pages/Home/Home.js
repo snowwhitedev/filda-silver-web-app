@@ -1,17 +1,17 @@
 import React, { useContext, useEffect, useState } from 'react'
-import Dashboard from './components/Dashboard'
-import Accounts from './components/Accounts'
-import Markets from './components/Markets'
-import './Home.scss'
-import FetchData from './methods/FetchData'
-import GovernanceData from './methods/GovernanceData'
-import Pending from './components/Pending'
-import log from './utils/logger'
-import { WalletAddressContext, NetworkTypeContext, Web3Context, ReadonlyWeb3Context } from './context'
 import { Modal } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
-import { promiseWithTimeout } from './utils/promise'
-import CoreData from './methods/CoreData'
+import { WalletAddressContext, NetworkTypeContext, Web3Context, ReadonlyWeb3Context } from '../../context';
+import CoreData from '../../methods/CoreData'
+import FetchData from '../../methods/FetchData'
+import GovernanceData from '../../methods/GovernanceData'
+import log from '../../utils/logger'
+import { promiseWithTimeout } from '../../utils/promise'
+import Dashboard from '../../components/Dashboard'
+import Accounts from '../../components/Accounts'
+import Markets from '../../components/Markets'
+import Pending from '../../components/Pending'
+import '../../Home.scss'
 
 async function loadAllMarketData(web3, networkType, connectedAddress, marketsArr) {
     const startTime = new Date().getTime()
