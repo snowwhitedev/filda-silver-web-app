@@ -14,7 +14,7 @@ import VoteIcon from '../../assets/images/vote.svg'
 import CheckIcon from '../../assets/images/check.svg'
 import ErrorIcon from '../../assets/images/error.svg'
 import LoadingIcon from '../../assets/images/savingsloading.svg'
-import styles from '../../Vote.module.scss'
+import styles from './Vote.module.scss'
 
 function Vote() {
     const { connectedAddress } = useContext(WalletAddressContext)

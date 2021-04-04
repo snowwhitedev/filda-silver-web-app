@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Container, Row, Col } from "react-bootstrap";
 import Config from "../../utils/config";
 import { NetworkTypeContext, WalletAddressContext, Web3Context } from '../../context'
-import styles from '../../Dashboard.module.scss';
+import styles from './Dashboard.module.scss';
 
 function Dashboard(props) {
   const { connectedAddress } = useContext(WalletAddressContext)

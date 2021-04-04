@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
 import {Container, Row, Col, Button, Modal} from 'react-bootstrap'
-import styles from '../../Staking.module.scss'
 import StakingData from '../../methods/StakingData'
 import staking from '../../assets/images/staking.svg'
 import moment from 'moment'
@@ -17,6 +16,7 @@ import LoadingIcon from '../../assets/images/savingsloading.svg'
 import log from '../../utils/logger'
 import { LanguageContext, NetworkTypeContext, WalletAddressContext, Web3Context } from '../../context'
 import { promiseWithTimeout } from '../../utils/promise'
+import styles from './Staking.module.scss'
 
 function Staking() {
     const { t } = useTranslation()

@@ -11,7 +11,7 @@ import Dashboard from '../../components/Dashboard'
 import Accounts from '../../components/Accounts'
 import Markets from '../../components/Markets'
 import Pending from '../../components/Pending'
-import '../../Home.scss'
+import './Home.scss'
 
 async function loadAllMarketData(web3, networkType, connectedAddress, marketsArr) {
     const startTime = new Date().getTime()
