@@ -1,17 +1,17 @@
 import React, { useContext, useState } from 'react'
 import { Container, Row, Col, Nav, Button, Modal } from 'react-bootstrap'
+import classNames from 'classnames'
+import truncateMiddle from 'truncate-middle'
+import { useTranslation } from 'react-i18next'
+import { FaExclamationCircle } from 'react-icons/fa'
+import { NavLink, useLocation } from 'react-router-dom'
+import { WalletAddressContext, NetworkTypeContext } from '../context'
 import logo from '../assets/images/logo.svg'
 import banking from '../assets/images/banking.svg'
 import vote from '../assets/images/vote.svg'
 import staking from '../assets/images/staking.svg'
 import metamask from '../assets/images/metamask.svg'
 import styles from './Header.module.scss'
-import truncateMiddle from 'truncate-middle'
-import { useTranslation } from 'react-i18next'
-import { FaExclamationCircle } from 'react-icons/fa'
-import { NavLink, useLocation } from 'react-router-dom'
-import classNames from 'classnames'
-import { WalletAddressContext, NetworkTypeContext } from '../context'
 
 function Header() {
     const { connectedAddress } = useContext(WalletAddressContext)
