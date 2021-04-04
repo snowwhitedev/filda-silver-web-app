@@ -1,18 +1,18 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import Web3 from 'web3'
+import detectEthereumProvider from '@metamask/detect-provider'
+import { LanguageContext, WalletAddressContext, NetworkTypeContext, Web3Context, ReadonlyWeb3Context } from './context'
+import Config from './utils/config'
+import logger from './utils/logger'
+import Header from './components/layout/Header'
+import Footer from './components/layout/Footer'
 import Home from './pages/Home/Home';
 import Staking from './pages/Staking/Staking'
 import Dashboard from './pages/Dashboard/Dashboard'
 import Vote from './pages/Vote/Vote'
-import Header from './components/Header'
-import Web3 from 'web3'
-import Config from './utils/config'
 import './App.scss'
-import Footer from './components/Footer'
-import { useTranslation } from 'react-i18next'
-import { LanguageContext, WalletAddressContext, NetworkTypeContext, Web3Context, ReadonlyWeb3Context } from './context'
-import logger from './utils/logger'
-import detectEthereumProvider from '@metamask/detect-provider'
 
 const AboutUs = lazy(() => import('./pages/aboutUs')) // 关于我们
 

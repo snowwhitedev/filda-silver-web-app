@@ -1,12 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react'
 import {Container, Row, Col, DropdownButton, Dropdown, Modal} from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
-import styles from './Footer.module.scss'
-import { ReactComponent as SecuritySVG } from '../assets/images/security.svg'
-import logo from '../assets/images/logo.svg'
-import auditLogo from '../assets/images/audit.png'
 import { FaGithub, FaWeixin, FaTwitter, FaTelegramPlane, FaHeart } from 'react-icons/fa'
 import { LanguageContext } from '../context'
+import { ReactComponent as SecuritySVG } from '../../assets/images/security.svg'
+import logo from '../../assets/images/logo.svg'
+import styles from './Footer.module.scss'
 
 const LanguageList = [
   {

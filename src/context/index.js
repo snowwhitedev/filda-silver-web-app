@@ -11,9 +11,9 @@ const Web3Context = React.createContext()
 const ReadonlyWeb3Context = React.createContext()
 
 export {
-    LanguageContext,
-    WalletAddressContext,
-    NetworkTypeContext,
-    Web3Context,
-    ReadonlyWeb3Context,
+  LanguageContext,
+  WalletAddressContext,
+  NetworkTypeContext,
+  Web3Context,
+  ReadonlyWeb3Context,
 }
