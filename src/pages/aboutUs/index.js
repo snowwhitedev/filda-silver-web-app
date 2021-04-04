@@ -1,11 +1,9 @@
 import React, {useState} from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
 import classNames from 'classnames'
 import { FaGithub, FaWeixin, FaTwitter, FaTelegramPlane, FaRedditAlien } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 import {faqData} from './data'
 import styles from './index.module.scss'
-
 
 const AboutUs = () => {
   const { t } = useTranslation()

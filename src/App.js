@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './pages/Home/Home';
 import Staking from './pages/Staking/Staking'
 import Dashboard from './pages/Dashboard/Dashboard'
-import Vote from './Vote'
+import Vote from './pages/Vote/Vote'
 import Header from './components/Header'
 import Web3 from 'web3'
 import Config from './utils/config'
